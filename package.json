@@ -4,7 +4,9 @@
   "description": "AngularBasics",
   "main": "index.js",
   "scripts": {
-    "test": "pradi"
+    "test": "pradi",
+    "build": "gulp",
+    "start": "node app.js"
   },
   "keywords": [
     "no",
