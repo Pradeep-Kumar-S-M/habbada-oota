@@ -1,0 +1,32 @@
+{
+  "name": "pradeep",
+  "version": "0.0.1",
+  "description": "AngularBasics",
+  "main": "index.js",
+  "scripts": {
+    "test": "pradi"
+  },
+  "keywords": [
+    "no",
+    "keywords"
+  ],
+  "author": "pradeep",
+  "license": "ISC",
+  "dependencies": {
+    "commonjs-highcharts": "^4.0.3",
+    "express": "^4.13.3",
+    "highcharts": "0.0.10",
+    "highcharts-release": "^4.1.9",
+    "jquery": "^2.1.4",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-highcharts": "^5.0.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-watch": "^4.3.5",
+    "jsx-loader": "^0.13.2",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
