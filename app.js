@@ -3,7 +3,7 @@ var app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
-// app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public'));
 
 // // views is directory for all template files
 // app.set('views', __dirname + '/views');
@@ -21,8 +21,8 @@ app.set('port', (process.env.PORT || 5000));
 // var express = require('express');
 // var app = express();
 
-var browserify = require('browserify');
-var path = require('path');
+// var browserify = require('browserify');
+// var path = require('path');
 
 // viewed at http://localhost:8080
 app.get('/', function(req, res) {
